@@ -1,0 +1,91 @@
+Nombre completo: Daniel Cuéllar Hernández
+Materia: METODOLOGÍA DE LA PROGRAMACIÓN
+Nombre de la actividad: Investigación y desarrollo de un pseudocódigo
+
+1. INVESTIGACIÓN SOBRE PSEUDOCÓDIGO
+
+¿Qué es un pseudocódigo?
+El pseudocódigo es una forma de escribir los pasos para resolver un problema usando
+palabras simples y fáciles de entender, sin usar las reglas complicadas de un lenguaje
+de programación. Es como un borrador o plan que hacemos antes de empezar a
+programar.
+
+¿Para qué se utiliza?
+El pseudocódigo se utiliza para:
+- Organizar las ideas antes de programar.
+- Entender mejor el problema que vamos a resolver.
+- Comunicar la solución a otras personas de manera clara.
+- Evitar errores antes de escribir el código final.
+
+¿Qué relación existe entre un algoritmo y un pseudocódigo?
+Un algoritmo es la serie de pasos ordenados para resolver un problema. El pseudocódigo
+es la manera en que escribimos esos pasos. Es decir, el algoritmo es la idea y el
+pseudocódigo es cómo la escribimos para que todos la entiendan.
+
+Principales características de un pseudocódigo:
+1. Usa palabras comunes como "LEER", "ESCRIBIR", "SI" o "MIENTRAS".
+2. No sigue las reglas estrictas de ningún lenguaje de programación.
+3. Es fácil de leer y entender para cualquier persona.
+4. Se enfoca en la lógica del problema, no en detalles técnicos.
+5. Es flexible y se puede adaptar a diferentes problemas.
+
+Ventajas de utilizar pseudocódigo antes de programar:
+1. Ayuda a pensar con claridad antes de escribir código.
+2. Es más fácil corregir errores en un plan que en un programa ya hecho.
+3. Cualquier programador lo entiende, sin importar qué lenguaje use.
+4. Sirve como guía para escribir el programa final.
+5. Permite probar la lógica sin necesidad de una computadora.
+
+
+2. DESARROLLO DE PSEUDOCÓDIGO
+
+Problema seleccionado:
+Calcular el promedio de tres calificaciones.
+
+Análisis del problema:
+- ENTRADA: Tres calificaciones que el usuario va a escribir.
+- PROCESO: Sumar las tres calificaciones y dividir entre 3.
+- SALIDA: Mostrar el promedio calculado.
+
+Pseudocódigo:
+
+INICIO
+
+    // PASO 1: Definir las variables donde guardaremos los datos
+    DEFINIR calificacion1, calificacion2, calificacion3 COMO NUMERO
+    DEFINIR promedio COMO NUMERO
+
+    // PASO 2: Pedir al usuario que ingrese las calificaciones
+    ESCRIBIR "Escribe la primera calificación:"
+    LEER calificacion1
+
+    ESCRIBIR "Escribe la segunda calificación:"
+    LEER calificacion2
+
+    ESCRIBIR "Escribe la tercera calificación:"
+    LEER calificacion3
+
+    // PASO 3: Calcular el promedio
+    promedio = (calificacion1 + calificacion2 + calificacion3) / 3
+
+    // PASO 4: Mostrar el resultado
+    ESCRIBIR "El promedio de las tres calificaciones es:", promedio
+
+FIN
+
+
+
+3. IDENTIFICACIÓN DE ELEMENTOS
+
+ENTRADA:
+- calificacion1
+- calificacion2
+- calificacion3
+
+PROCESO:
+- Sumar las tres calificaciones.
+- Dividir la suma total entre 3.
+
+SALIDA:
+- El promedio de las tres calificaciones.
+
